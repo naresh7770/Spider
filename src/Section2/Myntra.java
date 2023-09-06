@@ -12,7 +12,7 @@ public class Myntra {
 		driver.get("https://www.myntra.com/");
 		driver.findElement(By.className("desktop-searchBar")).sendKeys("iphone");
 		driver.findElement(By.className("desktop-submit")).click();
-//completed
+
 	}
 
 }
